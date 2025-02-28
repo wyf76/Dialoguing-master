@@ -16,15 +16,17 @@ class Title extends Phaser.Scene {
         this.load.image('minerva', 'img/minerva.png')
         this.load.image('jove', 'img/jove.png')
         this.load.image('neptune', 'img/neptune.png')
+        this.load.image('nezha', 'img/nezha.png')
 
         // load bitmap font
         this.load.bitmapFont('gem_font', 'font/gem.png', 'font/gem.xml')
+        this.load.bitmapFont('punk_font', 'font/punk_type.png', 'font/punk_type.xml ')
     }
 
     create() {
         // add title text
-        this.add.bitmapText(centerX, centerY - 32, 'gem_font', 'THE ODYSSEY', 32).setOrigin(0.5)
-        this.add.bitmapText(centerX, centerY, 'gem_font', 'Press SPACE to start', 16).setOrigin(0.5)
+        this.add.bitmapText(centerX, centerY - 32, 'punk_font', 'THE ODYSSEY', 64).setOrigin(0.5)
+        this.add.bitmapText(centerX, centerY, 'punk_font', 'Press SPACE to start', 32).setOrigin(0.5)
 
         // create input
         cursors = this.input.keyboard.createCursorKeys()

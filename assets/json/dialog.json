@@ -6,12 +6,28 @@
 			"newSpeaker" : "true"
 		},
 		{
+			"speaker" : "minerva",
+			"dialog" : "OK but low key I'm not your muse lol",
+			"newSpeaker" : "true"
+		},
+		{
 			"speaker" : "homer",
 			"dialog" : "Many cities did he visit, and many were the nations with whose manners and customs he was acquainted."
+		},		
+		{
+			"speaker": "nezha",
+			"dialog": "I have come from the Eastern seas, drawn by the echoes of your turmoil. Who among you shall test my spear?",
+			"newSpeaker": "true"
+		},
+		{
+			"speaker": "nezha",
+			"dialog": "Though I am but a child in form, do not mistake my appearance for weakness. The winds and tides bend to my will.",
+			"newSpeaker": "true"
 		},
 		{	
 			"speaker" : "homer",
-			"dialog" : "Moreover he suffered much by sea while trying to save his own life and bring his men safely home."
+			"dialog" : "Moreover he suffered much by sea while trying to save his own life and bring his men safely home.",
+			"newSpeaker" : "true"
 		},
 		{	
 			"speaker" : "homer",
@@ -25,6 +41,7 @@
 			"speaker" : "homer",
 			"dialog" : "Tell me, too, about all these things, O daughter of Jove, from whatsoever source you may know them."
 		}
+
 	],
 	[
 		{
